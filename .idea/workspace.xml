@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ee41b2e-b81a-4e6e-9376-1ec6788fc683" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1k3enUhkPcAjw78r0PzOyD7Dt1D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../navegador" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="P1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="P1.P1" />
+      <module name="ObjectesFitxers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.P1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ee41b2e-b81a-4e6e-9376-1ec6788fc683" name="Default Changelist" comment="" />
+      <created>1604933870361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604933870361</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1129" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604937079287">
+      <screen x="0" y="16" width="1920" height="1064" />
+    </state>
+    <state x="1129" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.16.1920.1064@0.16.1920.1064" timestamp="1604937079287" />
+    <state x="1246" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1604936546870">
+      <screen x="0" y="16" width="1920" height="1064" />
+    </state>
+    <state x="1246" y="106" key="#com.intellij.ide.util.MemberChooser/0.16.1920.1064@0.16.1920.1064" timestamp="1604936546870" />
+    <state x="1227" y="280" key="FileChooserDialogImpl" timestamp="1604938318607">
+      <screen x="0" y="16" width="1920" height="1064" />
+    </state>
+    <state x="1227" y="280" key="FileChooserDialogImpl/0.16.1920.1064@0.16.1920.1064" timestamp="1604938318607" />
+    <state width="914" height="283" key="GridCell.Tab.0.bottom" timestamp="1604940218002">
+      <screen x="0" y="16" width="1920" height="1064" />
+    </state>
+    <state width="914" height="283" key="GridCell.Tab.0.bottom/0.16.1920.1064@0.16.1920.1064" timestamp="1604940218002" />
+    <state width="914" height="283" key="GridCell.Tab.0.center" timestamp="1604940218002">
+      <screen x="0" y="16" width="1920" height="1064" />
+    </state>
+    <state width="914" height="283" key="GridCell.Tab.0.center/0.16.1920.1064@0.16.1920.1064" timestamp="1604940218002" />
+    <state width="914" height="283" key="GridCell.Tab.0.left" timestamp="1604940218001">
+      <screen x="0" y="16" width="1920" height="1064" />
+    </state>
+    <state width="914" height="283" key="GridCell.Tab.0.left/0.16.1920.1064@0.16.1920.1064" timestamp="1604940218001" />
+    <state width="914" height="283" key="GridCell.Tab.0.right" timestamp="1604940218002">
+      <screen x="0" y="16" width="1920" height="1064" />
+    </state>
+    <state width="914" height="283" key="GridCell.Tab.0.right/0.16.1920.1064@0.16.1920.1064" timestamp="1604940218002" />
+    <state x="459" y="157" key="SettingsEditor" timestamp="1604933880156">
+      <screen x="0" y="16" width="1920" height="1064" />
+    </state>
+    <state x="459" y="157" key="SettingsEditor/0.16.1920.1064@0.16.1920.1064" timestamp="1604933880156" />
+    <state x="1104" y="251" key="run.anything.popup" timestamp="1604937372082">
+      <screen x="0" y="16" width="1920" height="1064" />
+    </state>
+    <state x="1104" y="251" key="run.anything.popup/0.16.1920.1064@0.16.1920.1064" timestamp="1604937372082" />
+  </component>
+</project>
