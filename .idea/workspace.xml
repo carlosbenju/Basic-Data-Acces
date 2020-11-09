@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ee41b2e-b81a-4e6e-9376-1ec6788fc683" name="Default Changelist" comment="" />
+    <list default="true" id="2ee41b2e-b81a-4e6e-9376-1ec6788fc683" name="Default Changelist" comment="Práctica 1 acabada">
+      <change afterPath="$PROJECT_DIR$/src/P1/MiObjectOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/P2/P2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ObjectesFitxers/P1/P1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ObjectesFitxers/P1/P1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P1/P1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/P1/P1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,41 +69,61 @@
       <option name="presentableId" value="Default" />
       <updated>1604933870361</updated>
     </task>
+    <task id="LOCAL-00001" summary="Práctica 1 acabada">
+      <created>1604940659753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604940659753</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Práctica 1 acabada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Práctica 1 acabada" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1129" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604937079287">
       <screen x="0" y="16" width="1920" height="1064" />
     </state>
     <state x="1129" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.16.1920.1064@0.16.1920.1064" timestamp="1604937079287" />
-    <state x="1246" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1604936546870">
+    <state x="1245" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1604941202110">
       <screen x="0" y="16" width="1920" height="1064" />
     </state>
-    <state x="1246" y="106" key="#com.intellij.ide.util.MemberChooser/0.16.1920.1064@0.16.1920.1064" timestamp="1604936546870" />
+    <state x="1245" y="79" key="#com.intellij.ide.util.MemberChooser/0.16.1920.1064@0.16.1920.1064" timestamp="1604941202110" />
     <state x="1227" y="280" key="FileChooserDialogImpl" timestamp="1604938318607">
       <screen x="0" y="16" width="1920" height="1064" />
     </state>
     <state x="1227" y="280" key="FileChooserDialogImpl/0.16.1920.1064@0.16.1920.1064" timestamp="1604938318607" />
-    <state width="914" height="283" key="GridCell.Tab.0.bottom" timestamp="1604940218002">
+    <state width="914" height="283" key="GridCell.Tab.0.bottom" timestamp="1604941658148">
       <screen x="0" y="16" width="1920" height="1064" />
     </state>
-    <state width="914" height="283" key="GridCell.Tab.0.bottom/0.16.1920.1064@0.16.1920.1064" timestamp="1604940218002" />
-    <state width="914" height="283" key="GridCell.Tab.0.center" timestamp="1604940218002">
+    <state width="914" height="283" key="GridCell.Tab.0.bottom/0.16.1920.1064@0.16.1920.1064" timestamp="1604941658148" />
+    <state width="914" height="283" key="GridCell.Tab.0.center" timestamp="1604941658148">
       <screen x="0" y="16" width="1920" height="1064" />
     </state>
-    <state width="914" height="283" key="GridCell.Tab.0.center/0.16.1920.1064@0.16.1920.1064" timestamp="1604940218002" />
-    <state width="914" height="283" key="GridCell.Tab.0.left" timestamp="1604940218001">
+    <state width="914" height="283" key="GridCell.Tab.0.center/0.16.1920.1064@0.16.1920.1064" timestamp="1604941658148" />
+    <state width="914" height="283" key="GridCell.Tab.0.left" timestamp="1604941658147">
       <screen x="0" y="16" width="1920" height="1064" />
     </state>
-    <state width="914" height="283" key="GridCell.Tab.0.left/0.16.1920.1064@0.16.1920.1064" timestamp="1604940218001" />
-    <state width="914" height="283" key="GridCell.Tab.0.right" timestamp="1604940218002">
+    <state width="914" height="283" key="GridCell.Tab.0.left/0.16.1920.1064@0.16.1920.1064" timestamp="1604941658147" />
+    <state width="914" height="283" key="GridCell.Tab.0.right" timestamp="1604941658148">
       <screen x="0" y="16" width="1920" height="1064" />
     </state>
-    <state width="914" height="283" key="GridCell.Tab.0.right/0.16.1920.1064@0.16.1920.1064" timestamp="1604940218002" />
+    <state width="914" height="283" key="GridCell.Tab.0.right/0.16.1920.1064@0.16.1920.1064" timestamp="1604941658148" />
     <state x="459" y="157" key="SettingsEditor" timestamp="1604933880156">
       <screen x="0" y="16" width="1920" height="1064" />
     </state>
     <state x="459" y="157" key="SettingsEditor/0.16.1920.1064@0.16.1920.1064" timestamp="1604933880156" />
+    <state x="1038" y="258" key="Vcs.Push.Dialog.v2" timestamp="1604940665006">
+      <screen x="0" y="16" width="1920" height="1064" />
+    </state>
+    <state x="1038" y="258" key="Vcs.Push.Dialog.v2/0.16.1920.1064@0.16.1920.1064" timestamp="1604940665006" />
+    <state x="1247" y="434" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604940566824">
+      <screen x="0" y="16" width="1920" height="1064" />
+    </state>
+    <state x="1247" y="434" key="git4idea.remote.GitConfigureRemotesDialog/0.16.1920.1064@0.16.1920.1064" timestamp="1604940566824" />
     <state x="1104" y="251" key="run.anything.popup" timestamp="1604937372082">
       <screen x="0" y="16" width="1920" height="1064" />
     </state>

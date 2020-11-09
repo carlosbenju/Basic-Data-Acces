@@ -22,7 +22,9 @@ public class P1 {
                     "2. Crear fichero departamentos\n" +
                     "3. Leer fichero empleados\n" +
                     "4. Leer fichero departamentos\n" +
-                    "5. Salir");
+                    "5. Añadir empleados\n" +
+                    "6. Añadir departamentos\n" +
+                    "7. Salir");
             opcion = scanner.nextInt();
             switch (opcion) {
                 case 1:
@@ -38,10 +40,16 @@ public class P1 {
                     llegirDepartaments();
                     break;
                 case 5:
+                    afegirDadesEmpleats();
+                    break;
+                case 6:
+                    afegirDadesDepartament();
+                    break;
+                case 7:
                     System.out.println("Cerrando el programa...");
                     break;
             }
-        } while (opcion != 5);
+        } while (opcion != 7);
     }
 
     public void fitxerEmpleats() {
@@ -152,5 +160,66 @@ public class P1 {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void afegirDadesEmpleats() {
+        File fichero = new File("FicheroPersona.dat");
+        Empleat empleado;
+        String[] apellidos = {"Roger", "David", "Maria", "Ari", "Manel"};
+        int[] idEmpleat = {6, 7, 8, 9, 10};
+        double[] salario = {2000, 1500, 2500, 1000, 3000};
+        int[] departamento = {60, 70, 80, 90, 100};
+        FileOutputStream filein = null;
+        ObjectOutputStream dataOS = null;
+        try {
+            if (!fichero.exists()) {
+                filein = new FileOutputStream(fichero, true);
+                dataOS = new MiObjectOutputStream(filein);
+            } else {
+                dataOS = new MiObjectOutputStream(new FileOutputStream(fichero, true));
+            }
+            for (int i = 0; i < apellidos.length; i++) {
+                empleado = new Empleat(idEmpleat[i], apellidos[i], departamento[i], salario[i]);
+                dataOS.writeObject(empleado);
+            }
+
+        } catch (IOException exception) {
+        }
+        try {
+            dataOS.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Empleados introducidos.");
+    }
+
+    public void afegirDadesDepartament() {
+        File fichero = new File("FicheroPersona.dat");
+        String[] nombreDep = {"Direcció", "Neteja", "Revisió", "Secretaria", "Conserjeria"};
+        int[] idDepartment = {60, 70, 80, 90, 100};
+        String[] localitat = {"Barcelona", "Madrid", "Malaga", "Madrid", "Madrid"};
+        Departament departament;
+        FileOutputStream filein = null;
+        ObjectOutputStream dataOS = null;
+        try {
+            if (!fichero.exists()) {
+                filein = new FileOutputStream(fichero, true);
+                dataOS = new MiObjectOutputStream(filein);
+            } else {
+                dataOS = new MiObjectOutputStream(new FileOutputStream(fichero, true));
+            }
+            for (int i = 0; i < nombreDep.length; i++) {
+                departament = new Departament(idDepartment[i], nombreDep[i], localitat[i]);
+                dataOS.writeObject(departament);
+            }
+        } catch (Exception exception) {
+
+        }
+        try {
+            dataOS.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Departamentos introducidos.");
     }
 }
