@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="xstream-1.4.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/p2-JARs/xstream-1.4.8.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/p2-JARs/kxml2-2.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
